@@ -2,9 +2,16 @@ $('.A-slider').flickity({
     autoPlay: true
 })
 
-if ($(window).width() < 1024) {
-    $('.A-slider').flickity({
-        prevNextButtons: false,
-        pageDots: false
-    })
-}
+$(window).scroll(function() {
+    if ($('#category').offset().top) {
+        $('#fadeleft').addClass('animated fadeInLeft delay-200ms')
+        $('#faderight').addClass('animated fadeInRight delay-200ms')
+    }
+})
+
+$('.product-carousel').flickity({
+    pageDots: false,
+    freeScroll: true,
+    cellAlign: 'center',
+    wrapAround: true
+})
