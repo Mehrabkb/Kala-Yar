@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="fonts/css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>سوپر مارکت انلاین الو مارکت</title>
+</head>
+<body>
+        <!--===============Header=================-->
+        <header class="row" id="mainHeader">
+            <div class="N-topHeader">
+                <div class="N-wrap">
+                    <div class="right-content">
+                        <div class="righ-topHeader">
+                            <a href="">
+                                <span class="round-help-icon">
+                                    <img src="images/help.svg" alt="">
+                                </span>
+                                <span class="buy-help-text">
+                                    راهنمای خرید
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="left-content">
+                        <div class="left-topHeader">
+                            <a href="">
+                                <span class="round-mobile-friendly">
+                                    <img src="images/mobile-friendly-app.svg" alt="">
+                                </span>
+                                <span class="download-app-text">
+                                    دانلود  اپلیکیشن
+                                </span>
+                            </a>
+                        </div>
+                        <div class="left-topHeader">
+                            <a href="">
+                                <span class="round-contact-phone">
+                                    <img src="images/support.svg" alt="">
+                                </span>
+                                <span class="contact-us-text">تماس با پشتیبانی 1849</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="N-header">
+                <div class="N-wrap">
+                    <div class="N-aloo-logo">
+                        <a href="">
+                            <img class="web-logo" src="images/logo-red.svg" alt="">
+                        </a>
+                    </div>
+                    <div id="webSearchBox" class="N-aloo-searchBox">
+                        <div class="searchBox pull-xs-left">
+                            <div class="typeahead__container searchBox__container">
+                                <div class="typeahead__field">
+                                    <span class="typeahead__query">
+                                        <span class="typeahead__cancel-button"></span>
+                                    <input type="text" autocomplete="off" placeholder="کالای مورد نیاز را در این قسمت جستجو کنید">
+                                    </span>
+                                    <span class="typeahead__button searchBox__button">
+                                        <button type="button" id="search_button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="N-location">
+                        <a href="" class="location-link-text locationNotSelected">
+                            <span class="round-location-icon">
+                                <img src="images/round-location-off.svg" class="animated infinite fadeOut delay-2s" alt="">
+                            </span>
+                            <span class="location-help-text">محدوده خود را انتخاب کنید</span>
+                        </a>
+                    </div>
+                    <div class="N-account">
+                        <a href="" class="account-link-text">
+                            <span class="round-account-icon">
+                                <img src="images/round-account-circle.svg" alt="">
+                            </span>
+                            <span class="account-help-text">ورود / خروج</span>
+                        </a>
+                    </div>
+                    <div class="N-header-basketBox  flyToElementBasketlink">
+                        <div class="N-basket">
+                            <a href="" class="basket-link-box withoutProductBasket" style>
+                                <img src="images/round-shopping-cart.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="N-header-responsive">
+                <div class="profile-icon">
+                    <a href="#" class="account-link-text" data-toggle="modal" data-target="#login-box-show">
+                        <img src="images/user.svg" alt="">
+                    </a>
+                </div>
+                <div id="responsivHeaderLocation" class="responsive-location">
+                    <a href="#" class="responsive-location-link-text">
+                        <span class="responsive-round-location-icon">
+                            <img src="images/map.svg" alt="">
+                        </span>
+                        <span class="responsive-location-help-text">
+                            محدوده
+                        </span>
+                    </a>
+                </div>
+                <div class="N-responsive-logo">
+                    <a href="">
+                        <img class="responsive-logo" src="images/logowhite.svg" alt="">
+                    </a>
+                </div>
+                <div class="N-responsive-searchBox">
+                    <i id="responsiveSearchIcon" class="fa fa-search" aria-hidden="true"></i>
+    
+                </div>
+                <div class="N-responsive-basket">
+                    <a id="responsiveBasketlink" href="">
+                        <img src="images/shopping-cart.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!--===============Menu===================-->
+    
+        <div class="container-fluid text-center" id="navigation">
+            <nav class="mainNav">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa fa-home"></i></a>
+                    </li>
+                    <li>
+                        <a href="">مواد غذایی اصلی</a>
+                    </li>
+                    <li>
+                        <a href="">لبنیات و صبحانه</a>
+                    </li>
+                    <li>
+                        <a href="">نوشیدنی ها</a>
+                    </li>
+                    <li>
+                        <a href="">کنسرو و مواد غذایی</a>
+                    </li>
+                    <li>
+                        <a href="">شیرینی و تنقلات</a>
+                    </li>
+                    <li>
+                        <a href="">شوینده و بهداشتی</a>
+                    </li>
+                    <li>
+                        <a href="">لوازم مصرفی و فرهنگی و دخانیات</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <div class="main-grid-menu">
+        <div class="navigatelist">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">صفحه اصلی</a></li>
+                    <li class="breadcrumb-item"><a href="">صفحه کالا</a></li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row mx-0">
+            <div class="col-lg-9 col-12 m-0 post-box">
+                <div class="row w-100 m-0">
+                    <div class="col-lg-6 col-12 image-item">
+                        <img src="images/19314137_9479.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-12 fullproductinfo">
+                        <header class="producttitle">
+                            <h1>شیرسنتی ماهشام</h1>
+                            <a href="" class="add-to-fav">
+                                <i class="icon fa fa-heart-o"></i>
+                            </a>
+                        </header>
+                        <div class="item">
+                            <span>پرچرب-۹۴۵ سی سی</span>
+                        </div>
+                        <div class="item"> 
+                            <span class="title">تولید کننده:</span>
+                            <span itemprop="brand">ماهشام</span>
+                        </div> 
+                        <div class="item">
+                            <span class="title">
+                                وضعیت:
+                            </span>
+                            <span>موجود</span>
+                        </div>
+                        <div class="item">
+                            <span class="title">قیمت:</span>
+                            <span > ۶۰۰۰ تومان</span>
+                        </div>
+                        <div class="item">
+                            <span class="title">تعداد:</span>
+                            <span>12</span>
+                        </div>
+                        <div class="item">
+                            <button id="btnkharid" class="btn btn-danger">اضافه کردن به سبد خرید</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="col-lg-2 px-0">
+                <div class="sabad-kharid">
+                    <header>
+                        <div class="basketTitle">
+                            سبد خرید
+                        </div>
+                        <div class="address-title">
+                            <div class="right-part">محدوده شما</div>
+                            <div class="fa fa-map-marker-alt"></div>
+                        </div>
+                        <hr>
+                        <div class="content-text">
+                            سبد خرید شما خالی است
+                        </div>
+                    </header>
+                    <div class="takhfif">
+                        حداقل سفارش ۲۰ هزار تومان میباشد
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+    </div>
+
+
+
+    <section id="ertebat">
+        <div class="content">
+            <div class="row ">
+                <div class="right-content col-lg-6 col-12 text-right">
+                    ارتباط با پشتیبانی تزول همه روزه از ساعت ۸:۳۰ الی ۲۱
+                </div>
+                <div class="left-content col-lg-6 col-12 text-left">
+                    <span>1849 <img src="images/contact-phone.svg" alt=""></span> شماره پشتیبانی
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="lists">
+        <div class="row">
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><a href="">مواد غذایی اصلی</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+                    <li><a href="">انواع نان</a> </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="row m-0 top-footer text-center">
+            <div class="col-lg-6 ">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="">درباره ما</a></li>
+                    <li class="list-inline-item"><a href="">قوانین  ومقررات</a></li>
+                    <li class="list-inline-item"><a href="">راهنمای کاربری</a></li>
+                    <li class="list-inline-item"><a href="">سوالات متداول</a></li>
+                    <li class="list-inline-item"><a href="">تماس با ما</a></li>
+                    <li class="list-inline-item"><a href="">دانلود اپلیکیشن</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-12 icons">
+                <div class="row m-0 ">
+                    <div class="col-lg-6 col-12 txt">
+                        ما را در سایر شبکه ها دنبال کنید
+                    </div>
+                    <div class="col-lg-6 col-12 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="images/telegram (1).svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="images/twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="images/instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0 bottom-footer">
+            <div class="col-lg-6 col-12 text-center mt-4">
+                کلیه حقوق برای کالا یار محفوظ است . طراحی وب سایت <a href="">مهراب کردبچه</a>
+            </div>
+            <div class="col-lg-6 col-12 text-center mt-2">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <img src="images/enamad.png" alt="">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="images/enamad1.png" alt="">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="images/senfi.png" alt="">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="images/ecunionlogo.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript/popper.min.js"></script>
+    <script src="javascript/bootstrap/bootstrap.min.js"></script>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/flickity.js"></script>
+    <script type="text/javascript" src="javascript/myjquery.js"></script>
+
+</body>
+
+</html>
