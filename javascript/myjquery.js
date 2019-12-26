@@ -15,3 +15,9 @@ $('.product-carousel').flickity({
     cellAlign: 'center',
     wrapAround: true
 })
+$('.main-slider').flickity({
+  pageDots:false,
+  freeScroll:true,
+  cellAlign:'center',
+  wrapAround:true
+})

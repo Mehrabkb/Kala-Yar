@@ -1178,7 +1178,6 @@ a:hover {
 
 #ertebat {
     width: 100%;
-
     background-color: #74b300;
 }
 
@@ -1285,41 +1284,47 @@ footer .top-footer ul li {
 footer .top-footer ul li:last-child {
     border-left: 0px;
 }
-footer .top-footer .icons .txt{
+
+footer .top-footer .icons .txt {
     line-height: 1.5;
 }
-footer .top-footer .icons img{
+
+footer .top-footer .icons img {
     width: 25px;
 }
-footer .bottom-footer img{
+
+footer .bottom-footer img {
     width: 80px;
 }
+
 .main-grid-menu {
     width: 1200px;
     max-width: 100%;
-    margin:14px auto;
+    margin: 14px auto;
     font-size: 0.9rem;
     padding: 6px 11px;
     color: #888;
-
 }
-.main-grid-menu .navigatelist ol li a{
+
+.main-grid-menu .navigatelist ol li a {
     color: #888;
-
 }
- .filtercol{
-     padding: 0;
+
+.filtercol {
+    padding: 0;
     float: right;
     margin-left: 1%;
     min-height: 703px;
 }
- .filterBox{
+
+.filterBox {
     padding: 1px;
     background-color: #fff;
     margin-bottom: 10px;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
 }
-.collapsetitle{
+
+.collapsetitle {
     color: #fff;
     cursor: pointer;
     font-size: 14px;
@@ -1329,7 +1334,8 @@ footer .bottom-footer img{
     border-radius: 5px 5px 2px 2px;
     text-align: right;
 }
-.filterBox .content{
+
+.filterBox .content {
     margin-top: 0.5em;
     font-size: .9em;
     padding: 0px 15px 15px;
@@ -1337,26 +1343,30 @@ footer .bottom-footer img{
     list-style-type: none;
     text-align: right;
 }
-.filterBox .content .checkBox{
+
+.filterBox .content .checkBox {
     padding: 3px 0;
 }
-.posts{
+
+.posts {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 0;
     margin-left: 1%!important;
 }
-.posts h2{
+
+.posts h2 {
     text-align: right;
     height: 40px;
-    background-color:#c9d0d6;
+    background-color: #c9d0d6;
     color: #666;
     margin: 1%;
-    border-radius: 10px;    
+    border-radius: 10px;
     padding-right: 1%;
     line-height: 2.5;
 }
-.post-item{
+
+.post-item {
     border: 1px solid #ccc;
     margin: 2%;
     display: block;
@@ -1364,11 +1374,13 @@ footer .bottom-footer img{
     background-color: #fff;
     height: 280px;
 }
-.post-item img{
+
+.post-item img {
     width: 100%;
-    height:66%;
+    height: 66%;
     border-bottom: 1px solid #ccc;
 }
+
 .post-item span {
     width: 100%;
     clear: both;
@@ -1376,45 +1388,52 @@ footer .bottom-footer img{
     line-height: 1.5;
     display: block;
 }
-.post-item small{
+
+.post-item small {
     line-height: 1.5;
 }
-.post-item .buy-item{
+
+.post-item .buy-item {
     display: flex;
     width: 100%;
     border-top: 1px solid #ccc;
     margin-top: 10%;
     height: 30px;
-    line-height: 1.5;    
+    line-height: 1.5;
     cursor: pointer;
     background: #eee;
 }
-.post-item .buy-item small{
+
+.post-item .buy-item small {
     line-height: 2;
     width: 80%;
     text-align: right;
     padding-right: 2%;
 }
-.post-item .buy-item span{
+
+.post-item .buy-item span {
     width: 20%;
     line-height: 2;
     text-align: left;
-    padding-left: 7% ;
+    padding-left: 7%;
     color: red;
+}
 
+.posts .row div {
+    padding: 0;
 }
-.posts .row div{
-    padding:0;
-}
-.post-item:hover{
-    transform: scale(1.01 , 1.01);
+
+.post-item:hover {
+    transform: scale(1.01, 1.01);
     transition: .5s;
 }
-.post-item:hover .buy-item{
+
+.post-item:hover .buy-item {
     background-color: #888795;
     color: #fff;
 }
-.sabad-kharid{
+
+.sabad-kharid {
     width: 100%;
     display: block;
     border: 1px solid #ccc;
@@ -1423,10 +1442,12 @@ footer .bottom-footer img{
     background-color: #fff;
     border-radius: 10px;
 }
+
 .sabad-kharid header {
     padding: 14px 0px;
 }
-.basketTitle{
+
+.basketTitle {
     height: 30%;
     text-align: center;
     color: #000;
@@ -1434,24 +1455,28 @@ footer .bottom-footer img{
     font-size: 1.2rem;
     font-weight: 500;
 }
-.sabad-kharid header .address-title{
+
+.sabad-kharid header .address-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0px 16px;
 }
-.sabad-kharid hr{
+
+.sabad-kharid hr {
     width: 80%;
     margin: 15% auto;
 }
-.sabad-kharid .content-text{
+
+.sabad-kharid .content-text {
     width: 90%;
     margin: 0 auto;
     color: #000;
     text-align: center;
 }
-.sabad-kharid .takhfif{
+
+.sabad-kharid .takhfif {
     width: 100%;
     background: #800;
     border-bottom-left-radius: 10px;
@@ -1464,25 +1489,29 @@ footer .bottom-footer img{
     font-size: .7rem;
     line-height: 3;
 }
-.sticky-navigation{
+
+.sticky-navigation {
     position: fixed;
     top: 95px;
     z-index: 100;
 }
-.post-box{
+
+.post-box {
     margin-left: 1%!important;
     background-color: #fff;
     padding: 15px;
 }
-.post-box .image-item{
+
+.post-box .image-item {
     border: 1px solid #ccc;
 }
-.post-box .image-item img{
+
+.post-box .image-item img {
     width: 100%;
     cursor: pointer;
 }
 
-.fullproductinfo .producttitle{
+.fullproductinfo .producttitle {
     color: #6d96c2;
     font-size: 1.5em;
     font-family: tezol;
@@ -1491,23 +1520,26 @@ footer .bottom-footer img{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
 }
-.fullproductinfo .producttitle h1{
+
+.fullproductinfo .producttitle h1 {
     margin-bottom: 0;
     font-size: 0.9em;
     display: inline-block;
-    
 }
-.fullproductinfo .producttitle .add-to-fav{
+
+.fullproductinfo .producttitle .add-to-fav {
     font-size: 0.65em;
     width: 55%;
     display: inline-block;
     color: #888;
 }
-.fullproductinfo .producttitle .add-to-fav .icon{
+
+.fullproductinfo .producttitle .add-to-fav .icon {
     float: left;
     font-size: 1.4rem;
 }
-.fullproductinfo .item{
+
+.fullproductinfo .item {
     font-size: 14px;
     padding: 12px 6px;
     text-align: right;
@@ -1515,10 +1547,114 @@ footer .bottom-footer img{
     color: #666;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
-#btnkharid:hover{
+
+#btnkharid:hover {
     transition: .5s;
     border-radius: 20px;
+}
 
+.slider-box {
+    padding: 30px;
+}
+
+.slider-box header {
+    height: 40px;
+    background-color: #666;
+}
+
+.slider-box header .title {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.main-slider {
+    margin: 5px;
+    margin-top: 0 !important;
+    padding: 10px;
+    border: 1px solid #666;
+}
+
+.main-slider .slide-item {
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-slider .slide-item:hover {
+    border: 1px solid #ccc;
+    transition: .5s;
+    transform: scale(1.001);
+}
+
+.main-slider .slide-item:hover .price-plus {
+    background: #666;
+    color: #fff!important;
+}
+
+.main-slider .slide-item:hover .price-plus small {
+    color: #fff!important;
+}
+
+.main-slider .flickity-viewport {
+    height: 281px!important;
+}
+
+.main-slider .slide-item .image {
+    width: 100%;
+    height: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.main-slider .slide-item .image img {
+    height: 100%;
+}
+
+.main-slider .slide-item .title {
+    color: #000;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 2;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+}
+
+.main-slider .slide-item .desc {
+    font-size: .8rem;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.main-slider .slide-item .price-plus {
+    border: 1px solid #ccc;
+    background: #eee;
+    border-top: 0px;
+    height: 35px;
+    line-height: 2.5;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.main-slider .slide-item .price-plus small {
+    width: 70%;
+    text-align: right;
+    color: #000;
+}
+
+.main-slider .slide-item .price-plus a {
+    width: 50%;
+    text-align: left;
+    color: red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1538,13 +1674,13 @@ footer .bottom-footer img{
         width: 45% !important;
         height: 30vh;
     }
-    #lists{
+    #lists {
         display: none;
     }
-    footer .top-footer{
+    footer .top-footer {
         display: none;
     }
-    footer hr{
+    footer hr {
         display: none;
     }
 }
