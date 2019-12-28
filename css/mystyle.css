@@ -1657,6 +1657,26 @@ footer .bottom-footer img {
     color: red;
 }
 
+.my-close {
+    text-align: right;
+    padding: 20px!important;
+    font-size: 2.4rem;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.lg-form h1 {
+    line-height: 2.3;
+    font-size: 2.5rem;
+}
+
+.form-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
     .flickity-button {
         display: none;

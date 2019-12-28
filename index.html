@@ -87,7 +87,7 @@
                     </a>
                 </div>
                 <div class="N-account">
-                    <a href="" class="account-link-text">
+                    <a href="#" class="account-link-text" data-toggle="modal" data-target="#loginform">
                         <span class="round-account-icon">
                             <img src="images/round-account-circle.svg" alt="">
                         </span>
@@ -383,22 +383,22 @@
                     <h2>عضویت در خبرنامه!</h2>
                     <h4>شما میتوانید با ثبت آدرس ایمیل خود از طرح ها و تخفیف های ویژه تزول مارکت مطلع شوید
                     </h4>
-                        <div class="emailform">
-                            <form action="">
+                    <div class="emailform">
+                        <form action="">
+                            <div class="form-row">
+                                <div class="col-lg-6 col-12">
+                                    <input type="text" class="form-control" placeholder="لطفا ایمیل خود را وارد کنید">
+                                </div>
+
                                 <div class="form-row">
-                                    <div class="col-lg-6 col-12">
-                                        <input type="text" class="form-control" placeholder="لطفا ایمیل خود را وارد کنید">
-                                    </div>
-                               
-                                    <div class="form-row">
-                                        <div class="col-lg-12 col-12">
-                                            <button type="submit" class="btn btn-danger">ثبت ایمیل</button>
-                                        </div>
+                                    <div class="col-lg-12 col-12">
+                                        <button type="submit" class="btn btn-danger">ثبت ایمیل</button>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-       
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
                 <div class="col-lg-6 col-12 icon">
                     <img src="images/newsletter.svg" alt="">
@@ -564,9 +564,46 @@
             </div>
         </div>
     </footer>
+
+    <!-- forms modal project-->
+
+    <div class="modal fade " id="loginform" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+
+                <button type="button" class="close my-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                <div class="modal-body">
+                    <div class="row w-100 m-0">
+                        <div class="col-lg-6 col-12">
+                            <img src="images/login.png" alt="">
+                        </div>
+                        <div class="col-lg-6 col-12 text-right">
+                            <div class="lg-form">
+                                <h1>ورود یا عضویت</h1>
+                                <h4>لطفا جهت ورود یا عضویت شماره تلفن خود را وارد کنید</h4>
+                                <form action="" class="form-login">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="شماره موبایل">
+                                    </div>
+                                    <button class="btn btn-danger" type="submit">ورود یا عضویت</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- /forms modal project-->
+    <script src="javascript/jquery.js"></script>
     <script src="javascript/popper.min.js"></script>
     <script src="javascript/bootstrap/bootstrap.min.js"></script>
-    <script src="javascript/jquery.js"></script>
+
     <script src="javascript/flickity.js"></script>
     <script type="text/javascript" src="javascript/myjquery.js"></script>
 
